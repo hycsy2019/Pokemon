@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pokpic/555.jpg</file>
+        <file>pokpic/win.png</file>
+        <file>pokpic/lose.png</file>
+        <file>pokpic/pangkeding.png</file>
+        <file>pokpic/chouchouni.png</file>
+        <file>pokpic/dashetou.png</file>
+        <file>pokpic/feitiantanglang.png</file>
+        <file>pokpic/huobaohou.png</file>
+        <file>pokpic/jushishou.png</file>
+        <file>pokpic/mohaima.png</file>
+        <file>pokpic/wanli.png</file>
+        <file>pokpic/xiaohuolong.png</file>
+        <file>pokpic/levelcopper.png</file>
+        <file>pokpic/levelgold.png</file>
+        <file>pokpic/levelsilver.png</file>
+        <file>pokpic/pokcopper.png</file>
+        <file>pokpic/pokgold.png</file>
+        <file>pokpic/poksilver.png</file>
+        <file>pokpic/back.jpg</file>
+        <file>pokpic/jienigui.png</file>
+        <file>pokpic/jucaoye.png</file>
+        <file>pokpic/mainpic.jpg</file>
+        <file>pokpic/miaomiao.png</file>
+        <file>pokpic/miaowazhongzi.png</file>
+        <file>pokpic/pikaqiu.png</file>
+        <file>pokpic/pipi.png</file>
+        <file>pokpic/pokemon.png</file>
+        <file>pokpic/pokemonlogo.png</file>
+        <file>pokpic/yibu.png</file>
+        <file>pokpic/p1.png</file>
+    </qresource>
+    <qresource prefix="/buttons">
+        <file>buttons/Home (1).png</file>
+        <file>buttons/Check (2).png</file>
+        <file>buttons/Play (2).png</file>
+        <file>buttons/Back (2).png</file>
+        <file>buttons/Exit (2).png</file>
+        <file>buttons/Text (1).png</file>
+        <file>buttons/Text (2).png</file>
+        <file>buttons/Text (3).png</file>
+        <file>buttons/Text (4).png</file>
+    </qresource>
+</RCC>

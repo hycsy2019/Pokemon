@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lose</class>
+ <widget class="QWidget" name="lose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>941</width>
+    <height>591</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>941</width>
+    <height>591</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>lose</string>
+  </property>
+  <widget class="QLabel" name="back">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>961</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 85, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pokemonClientGUI.qrc">:/pokpic/pokemon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="shibai">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>431</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pokemonClientGUI.qrc">:/pokpic/lose.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msg">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>530</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光胖头鱼_CNKI</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>请从以上精灵中选一个送出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>271</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="center">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>200</y>
+     <width>271</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>200</y>
+     <width>271</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gui">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>180</y>
+     <width>291</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pokemonClientGUI.qrc">:/pokpic/555.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fighting">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>500</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光胖头鱼_CNKI</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/buttons/buttons/Text (2).png);
+</string>
+   </property>
+   <property name="text">
+    <string>再接再厉</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dexp">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>28</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));</string>
+   </property>
+   <property name="text">
+    <string>EXP+</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="pokemonClientGUI.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>left</sender>
+   <signal>clicked()</signal>
+   <receiver>lose</receiver>
+   <slot>leftSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>258</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>168</x>
+     <y>-10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>center</sender>
+   <signal>clicked()</signal>
+   <receiver>lose</receiver>
+   <slot>centerSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>455</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>right</sender>
+   <signal>clicked()</signal>
+   <receiver>lose</receiver>
+   <slot>rightSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>-15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fighting</sender>
+   <signal>clicked()</signal>
+   <receiver>lose</receiver>
+   <slot>fightingSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>544</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>594</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>leftSlot()</slot>
+  <slot>centerSlot()</slot>
+  <slot>rightSlot()</slot>
+  <slot>fightingSlot()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>playerMainW</class>
+ <widget class="QMainWindow" name="playerMainW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1267</width>
+    <height>758</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>POKBATTLE</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{border-image: url(:/pokpic/p1.png);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+ </widget>
+ <resources>
+  <include location="pokemonClientGUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>
